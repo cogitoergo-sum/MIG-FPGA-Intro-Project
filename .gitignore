@@ -1,0 +1,7 @@
+/.library_mapping.xml
+/.project
+/.settings
+/.vscode
+*.vcd
+*.view
+simv
