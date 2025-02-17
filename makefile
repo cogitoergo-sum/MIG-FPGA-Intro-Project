@@ -19,3 +19,8 @@ run: $(TARGET)
 # Clean up generated files
 clean:
 	rm -f $(TARGET) *.vcd
+
+vcd: $(TARGET)
+	vvp $(TARGET)
+	gtkwave mux_tb.vcd
+

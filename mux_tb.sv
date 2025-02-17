@@ -25,7 +25,7 @@ end
 
 
  initial begin
-  $dumpfile("test_2_1mux.vcd");
+  $dumpfile("mux_tb.vcd");
   $dumpvars(0,mux_tb);
   a=1'b0;b=1'b0; select=1'b0;
   #5 a=1'b1; 
